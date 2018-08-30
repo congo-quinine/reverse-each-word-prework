@@ -12,7 +12,7 @@ def reverse_each_word(string)
         ver.reverse
       end  
     
-rev_return.join(' ')
+rev_string.join(' ')
 end
 
 
