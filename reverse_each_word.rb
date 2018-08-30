@@ -7,6 +7,10 @@ def reverse_each_word(string)
      rev_string.push(rev)
   end
   
+      rev_string.each do |ver|
+        ver.reverse
+      end  
+    
 rev_string
 end 
   
