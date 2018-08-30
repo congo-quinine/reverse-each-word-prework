@@ -8,6 +8,8 @@ def reverse_each_word(string)
      rev_string.push(rev)
   end
   
+    
+  
       rev_string.collect do |ver|
          ver.reverse
       end  
