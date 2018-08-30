@@ -9,6 +9,7 @@ def reverse_each_word(string)
   end
   
       rev_string.collect do |ver|
+        ver.reverse
       end  
     
 rev_return.join(' ')
