@@ -8,11 +8,11 @@ def reverse_each_word(string)
      rev_string.push(rev)
   end
   
-      rev_string.each do |ver|
-         rev_return.push(ver.reverse)
+      rev_string.collect do |ver|
+         ver.reverse
       end  
     
-rev_return.join(' ')
+rev_reverse.join(' ')
 end
 
 
